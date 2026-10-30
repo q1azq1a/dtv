@@ -1,0 +1,45 @@
+name: Update playlist and EPG
+
+on:
+  schedule:
+    - cron: "0 1,9,17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-playlist-epg
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download latest playlist and EPG
+        run: |
+          set -euo pipefail
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+          curl -fL --retry 3 --retry-delay 10 -A "$UA" -o playlist.m3u.tmp "https://iptv.yang-1989.xyz/playlist.m3u"
+          curl -fL --retry 3 --retry-delay 10 -A "$UA" -o epg.xml.gz.tmp "https://iptv.yang-1989.xyz/epg.xml.gz"
+          test -s playlist.m3u.tmp
+          test -s epg.xml.gz.tmp
+          head -n 1 playlist.m3u.tmp | grep -q "#EXTM3U"
+          gzip -t epg.xml.gz.tmp
+          mv playlist.m3u.tmp playlist.m3u
+          mv epg.xml.gz.tmp epg.xml.gz
+          ls -lh playlist.m3u epg.xml.gz
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u epg.xml.gz
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Update playlist and EPG $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
