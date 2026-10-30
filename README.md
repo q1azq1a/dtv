@@ -18,10 +18,7 @@ https://cdn.jsdelivr.net/gh/q1azq1a/dtv@main/playlist.m3u
 | 渠道 | playlist.m3u | epg.xml.gz |
 |---|---|---|
 | GitHub Raw | https://raw.githubusercontent.com/q1azq1a/dtv/main/playlist.m3u | https://raw.githubusercontent.com/q1azq1a/dtv/main/epg.xml.gz |
-| Gitee Raw | https://gitee.com/danfengdd/dtv/raw/main/playlist.m3u （注：Gitee 内容审核会拦截此文件，返回 451，一般不可用） | https://gitee.com/danfengdd/dtv/raw/main/epg.xml.gz |
 | 源站 | https://iptv.yang-1989.xyz/playlist.m3u | https://iptv.yang-1989.xyz/epg.xml.gz |
-
-Gitee 仓库（镜像）：https://gitee.com/danfengdd/dtv
 
 ## 更新机制
 
