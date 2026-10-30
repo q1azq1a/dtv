@@ -43,3 +43,10 @@ jobs:
             git commit -m "Update playlist and EPG $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
           fi
+      - name: Purge jsDelivr cache
+        if: always()
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/q1azq1a/dtv@main/playlist.m3u" || true
+          echo
+          curl -s "https://purge.jsdelivr.net/gh/q1azq1a/dtv@main/epg.xml.gz" || true
+          echo
