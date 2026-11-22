@@ -359,8 +359,6 @@ https://cdn.qd.je/163189/fctvtt
 https://cdn.qd.je/163189/wxxw
 #EXTINF:-1 tvg-id="無綫新聞台" tvg-name="無綫新聞台" tvg-logo="https://iptv.yang-1989.xyz/logo/無綫新聞台.webp" group-title="•港澳台「Juli」",無綫新聞台
 https://cdn.qd.je/163189/wxxwt
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://iptv.yang-1989.xyz/logo/明珠台.webp" group-title="•港澳台「Juli」",明珠台「字幕」
-https://cdn.qd.je/163189/mzt
 #EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://iptv.yang-1989.xyz/logo/明珠台.webp" group-title="•港澳台「Juli」",明珠台「WebVTT字幕」
 https://cdn.qd.je/163189/mztvtt
 #EXTINF:-1 tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://iptv.yang-1989.xyz/logo/TVB%20Plus.webp" group-title="•港澳台「Juli」",TVB Plus
@@ -399,14 +397,10 @@ https://cdn.qd.je/163189/rthk33
 https://cdn.qd.je/163189/tvbc
 #EXTINF:-1 tvg-id="娛樂新聞台" tvg-name="娛樂新聞台" tvg-logo="https://iptv.yang-1989.xyz/logo/娛樂新聞台.webp" group-title="•港澳台「Juli」",娛樂新聞台
 https://cdn.qd.je/163189/ylxw
-#EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="•港澳台「Juli」",华丽翡翠台
-https://cdn.qd.je/163189/hlt
 #EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="•港澳台「Juli」",华丽翡翠台「硬字幕」
 https://cdn.qd.je/163189/jade
 #EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="•港澳台「Juli」",华丽翡翠台「新加坡」
 https://cdn.qd.je/163189/hlfct
-#EXTINF:-1 tvg-id="TVB Jade" tvg-name="TVB Jade" tvg-logo="https://iptv.yang-1989.xyz/logo/翡翠台.webp" group-title="•港澳台「Juli」",华丽翡翠台「新加坡」
-https://cdn.qd.je/163189/jade2
 #EXTINF:-1 tvg-id="TVB1" tvg-name="TVB1" tvg-logo="https://iptv.yang-1989.xyz/logo/TVB1.webp" group-title="•港澳台「Juli」",TVB1
 https://cdn.qd.je/163189/tvb1
 #EXTINF:-1 tvg-id="TVBJ1" tvg-name="TVBJ1" tvg-logo="https://iptv.yang-1989.xyz/logo/TVBJ1.webp" group-title="•港澳台「Juli」",TVBJ1
@@ -419,8 +413,6 @@ https://cdn.qd.je/163189/yzwx
 https://cdn.qd.je/163189/tvbxh
 #EXTINF:-1 tvg-id="TVB 星河台" tvg-name="TVB 星河台" tvg-logo="https://iptv.yang-1989.xyz/logo/TVB%20星河台.webp" group-title="•港澳台「Juli」",TVB 星河台
 https://cdn.qd.je/163189/xinghe
-#EXTINF:-1 tvg-id="TVB 星河台" tvg-name="TVB 星河台" tvg-logo="https://iptv.yang-1989.xyz/logo/TVB%20星河台.webp" group-title="•港澳台「Juli」",TVB 星河台
-https://cdn.qd.je/163189/tvbxh2
 #EXTINF:-1 tvg-id="澳視澳門" tvg-name="澳視澳門" tvg-logo="https://iptv.yang-1989.xyz/logo/澳視澳門.webp" group-title="•港澳台「Juli」",澳視澳門
 https://cdn.qd.je/163189/asam
 #EXTINF:-1 tvg-id="澳門Macau" tvg-name="澳門Macau" tvg-logo="https://iptv.yang-1989.xyz/logo/澳門Macau.webp" group-title="•港澳台「Juli」",澳門Macau
@@ -441,10 +433,6 @@ https://cdn.qd.je/163189/typd2
 https://cdn.qd.je/163189/ccm2
 #EXTINF:-1 tvg-id="Astro AOD" tvg-name="Astro AOD" tvg-logo="https://iptv.yang-1989.xyz/logo/Astro%20AOD.webp" group-title="•港澳台「Juli」",Astro AOD
 https://cdn.qd.je/163189/aod
-#EXTINF:-1 tvg-id="Astro 歡喜台" tvg-name="Astro 歡喜台" tvg-logo="https://iptv.yang-1989.xyz/logo/Astro%20歡喜台.webp" group-title="•港澳台「Juli」",Astro 歡喜台
-https://cdn.qd.je/163189/hxt
-#EXTINF:-1 tvg-id="iQIYI" tvg-name="iQIYI" tvg-logo="https://iptv.yang-1989.xyz/logo/iQIYI.webp" group-title="•港澳台「Juli」",iQIYI
-https://cdn.qd.je/163189/iqiyi
 #EXTINF:-1 tvg-id="八度空間" tvg-name="八度空間" tvg-logo="https://iptv.yang-1989.xyz/logo/八度空間.webp" group-title="•港澳台「Juli」",八度空間
 https://cdn.qd.je/163189/8tv
 #EXTINF:-1 tvg-id="Channel 5" tvg-name="Channel 5" tvg-logo="https://iptv.yang-1989.xyz/logo/Channel%205.webp" group-title="•港澳台「Juli」",Channel 5
